@@ -19,29 +19,41 @@ const About = () => {
               At Artful Clarity Hub, we don't just create campaigns—we craft experiences that resonate, engage, and convert. Our approach combines strategic thinking with creative excellence, ensuring that every brand touchpoint delivers value.
             </p>
             
-            <div className="grid md:grid-cols-3 gap-12 pt-12">
-              <div className="space-y-4">
-                <div className="text-5xl font-display font-bold text-primary">01</div>
-                <h3 className="text-2xl font-display font-semibold">Creative</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Bold ideas that capture attention and inspire action in crowded markets.
-                </p>
+            <div className="grid md:grid-cols-3 gap-8 pt-12">
+              <div className="group relative p-8 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl animate-fade-in border border-primary/10">
+                <div className="absolute -top-6 -left-6 w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white text-2xl font-display font-bold shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  ✦
+                </div>
+                <div className="space-y-4 pt-4">
+                  <h3 className="text-2xl font-display font-bold group-hover:text-primary transition-colors">Creative</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Bold ideas that capture attention and inspire action in crowded markets.
+                  </p>
+                </div>
               </div>
               
-              <div className="space-y-4">
-                <div className="text-5xl font-display font-bold text-primary">02</div>
-                <h3 className="text-2xl font-display font-semibold">Data-Driven</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Insights and analytics that inform every strategic decision we make.
-                </p>
+              <div className="group relative p-8 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl animate-fade-in border border-primary/10" style={{ animationDelay: "100ms" }}>
+                <div className="absolute -top-6 -left-6 w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white text-2xl font-display font-bold shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  ◆
+                </div>
+                <div className="space-y-4 pt-4">
+                  <h3 className="text-2xl font-display font-bold group-hover:text-primary transition-colors">Data-Driven</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Insights and analytics that inform every strategic decision we make.
+                  </p>
+                </div>
               </div>
               
-              <div className="space-y-4">
-                <div className="text-5xl font-display font-bold text-primary">03</div>
-                <h3 className="text-2xl font-display font-semibold">Results-Focused</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Measurable outcomes that drive sustainable business growth.
-                </p>
+              <div className="group relative p-8 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 hover:from-primary/10 hover:to-primary/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl animate-fade-in border border-primary/10" style={{ animationDelay: "200ms" }}>
+                <div className="absolute -top-6 -left-6 w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white text-2xl font-display font-bold shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  ★
+                </div>
+                <div className="space-y-4 pt-4">
+                  <h3 className="text-2xl font-display font-bold group-hover:text-primary transition-colors">Results-Focused</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Measurable outcomes that drive sustainable business growth.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
