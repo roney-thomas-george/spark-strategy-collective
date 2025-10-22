@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-32 mx-auto">
         <div className="max-w-5xl mx-auto text-center space-y-12 animate-fade-in">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-display font-bold tracking-tight leading-none">
-            Strategic Marketing{" "}
+            Strategic Marketing Test{" "}
             <span className="relative inline-block">
               <span className="text-primary">Excellence</span>
               <svg 
