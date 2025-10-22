@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/spark-strategy-collective/", // 👈 This is the key addition
+  base: "/spark-strategy-collective/", 
   server: {
     host: "::",
     port: 8080,
