@@ -12,7 +12,7 @@ const About = () => {
           
           <div className="space-y-12">
             <p className="text-2xl md:text-3xl font-display font-medium leading-relaxed">
-              We believe exceptional marketing is the perfect blend of art and science.
+              Describing good work is easy. We'd rather you saw it.
             </p>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
