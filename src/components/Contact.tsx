@@ -105,7 +105,7 @@ const Contact = () => {
       
       <div className="container px-4 mx-auto mt-24 pt-12 border-t border-border">
         <div className="text-center text-muted-foreground">
-          <p>© 2024 Artful Clarity Hub. All rights reserved.</p>
+          <p>© 2024 Matter of Craft. All rights reserved.</p>
         </div>
       </div>
     </section>

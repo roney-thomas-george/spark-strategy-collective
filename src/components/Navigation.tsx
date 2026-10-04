@@ -10,7 +10,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="text-2xl font-display font-bold tracking-tight">
-            Artful Clarity
+            Matter of Craft
           </div>
           
           <div className="hidden md:flex items-center gap-8">

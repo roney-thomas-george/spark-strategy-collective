@@ -16,7 +16,7 @@ const About = () => {
             </p>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
-              At Artful Clarity Hub, we don't just create campaigns—we craft experiences that resonate, engage, and convert. Our approach combines strategic thinking with creative excellence, ensuring that every brand touchpoint delivers value.
+              At Matter of Craft, we don't just create campaigns—we craft experiences that resonate, engage, and convert. Our approach combines strategic thinking with creative excellence, ensuring that every brand touchpoint delivers value.
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 pt-12">
