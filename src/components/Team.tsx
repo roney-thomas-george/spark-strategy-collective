@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Amal Prabha",
     role: "Founder & Creative Director",
-    initials: "SJ",
+    initials: "AP",
     bio: "Turning brands into names people cherish. 8+ years of internationally acclaimed work.",
     social: {
       linkedin: "https://linkedin.com",
@@ -17,7 +17,7 @@ const teamMembers = [
   {
     name: "Vishnu Manoj",
     role: "Co-founder / Finance",
-    initials: "MC",
+    initials: "VM",
     bio: "CMA co-founder who does the sums, so the ideas can be brave. ",
     social: {
       linkedin: "https://linkedin.com",
@@ -28,7 +28,7 @@ const teamMembers = [
   {
     name: "Sachin Kartik",
     role: "Cinematographer / Videographer ",
-    initials: "ER",
+    initials: "SK",
     bio: "Film-trained cinematographer with 7+ years behind the camera.",
     social: {
       linkedin: "https://linkedin.com",
@@ -39,7 +39,7 @@ const teamMembers = [
   {
     name: "Midhun MT",
     role: "Designer Lead",
-    initials: "DK",
+    initials: "MM",
     bio: "Designer with 7+ years of making ideas hard to scroll past. ",
     social: {
       linkedin: "https://linkedin.com",
@@ -50,7 +50,7 @@ const teamMembers = [
   {
     name: "Amal Paul",
     role: "Production Team Lead",
-    initials: "DK",
+    initials: "AP",
     bio: "Detail-minded producer who keeps big ideas on schedule and on screen. ",
     social: {
       linkedin: "https://linkedin.com",
