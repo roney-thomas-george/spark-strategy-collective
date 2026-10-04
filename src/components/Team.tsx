@@ -4,10 +4,10 @@ import { Linkedin, Twitter, Globe } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
-    role: "Creative Director",
+    name: "Amal Prabha",
+    role: "Founder & Creative Director",
     initials: "SJ",
-    bio: "15+ years crafting award-winning campaigns for global brands.",
+    bio: "Turning brands into names people cherish. 8+ years of internationally acclaimed work.",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
@@ -15,10 +15,10 @@ const teamMembers = [
     }
   },
   {
-    name: "Michael Chen",
-    role: "Strategy Lead",
+    name: "Vishnu Manoj",
+    role: "Co-founder / Finance",
     initials: "MC",
-    bio: "Data wizard with a proven track record of 10x growth strategies.",
+    bio: "CMA co-founder who does the sums, so the ideas can be brave. ",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
@@ -26,10 +26,10 @@ const teamMembers = [
     }
   },
   {
-    name: "Emily Rodriguez",
-    role: "Content Strategist",
+    name: "Sachin Kartik",
+    role: "Cinematographer / Videographer ",
     initials: "ER",
-    bio: "Storyteller driving engagement through compelling narratives.",
+    bio: "Film-trained cinematographer with 7+ years behind the camera.",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
@@ -37,10 +37,21 @@ const teamMembers = [
     }
   },
   {
-    name: "David Kim",
-    role: "Performance Marketing",
+    name: "Midhun MT",
+    role: "Designer Lead",
     initials: "DK",
-    bio: "ROI-focused marketer who turns clicks into loyal customers.",
+    bio: "Designer with 7+ years of making ideas hard to scroll past. ",
+    social: {
+      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com",
+      website: "https://example.com"
+    }
+  },
+  {
+    name: "Amal Paul",
+    role: "Production Team Lead",
+    initials: "DK",
+    bio: "Detail-minded producer who keeps big ideas on schedule and on screen. ",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",

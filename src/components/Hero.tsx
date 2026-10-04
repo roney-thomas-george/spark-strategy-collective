@@ -29,7 +29,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed font-light">
-            Where data-driven strategy meets creative brilliance. We transform brands through intelligent marketing that resonates and converts.
+            <b> As a matter of fact, good ads are a matter of craft.  </b><br />
+            An agency that does the thinking first, so the doing actually works. 
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
