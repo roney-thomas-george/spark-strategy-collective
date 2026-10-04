@@ -8,69 +8,111 @@ import {
   Palette, 
   LineChart, 
   Users, 
-  ShoppingCart 
+  ShoppingCart,
+  Monitor,
+  Video,
+  Newspaper,
+  Mail,
+  CalendarDays,
+  BarChart3
 } from "lucide-react";
 
 const services = [
   {
     icon: Target,
     title: "Brand Strategy & Identity",
-    description: "Crafting compelling brand narratives that define your market position.",
-    details: "We develop comprehensive brand strategies including positioning, messaging, visual identity, and brand guidelines that resonate with your target audience."
+    description: "You've spent years getting this business right. But is your brand telling that story right?",
+    details: "Every good brand feels like a person you'd recognise in a crowd. We help you work out who that person is, what they say and what they look like, then make sure they show up the same way everywhere."
   },
   {
     icon: Share2,
     title: "Social Media Marketing",
-    description: "Engaging audiences with creative content and strategic management.",
-    details: "From content creation to community management, we handle all aspects of social media to build meaningful connections with your audience."
+    description: "Your brand is posting every week. But is anyone looking forward to the next post?",
+    details: "We start by finding out what your audience cares about and what they scroll past. Then we plan, create and run your pages so people come back for more. It takes patience, and we'd rather tell you that now than promise you a viral week."
   },
   {
     icon: Search,
     title: "Search Engine Optimization",
-    description: "Boosting visibility through cutting-edge SEO strategies.",
-    details: "Technical SEO, content optimization, link building, and local SEO strategies that drive organic traffic and improve search rankings."
+    description: "Your customers are searching for exactly what you offer. But are they finding you, or someone else?",
+    details: "We find out what your customers actually type into Google, then shape your website so it answers them clearly. Nobody can promise you page one overnight, but steady, honest work gets you there and keeps you there."
   },
   {
     icon: TrendingUp,
     title: "Performance Marketing",
-    description: "Data-driven campaigns delivering measurable ROI.",
-    details: "PPC, programmatic advertising, and conversion optimization strategies that maximize your marketing budget and drive results."
+    description: "You're spending money to reach people.But do you know what each rupee is bringing back?",
+    details: "We set up your ads with clear goals, test what works and stop what doesn't. You get regular updates in plain language, including the weeks when the numbers disappoint, so every rupee has a reason."
   },
   {
     icon: FileText,
     title: "Content Marketing",
-    description: "Creating valuable content that attracts and retains audiences.",
-    details: "Blog posts, whitepapers, case studies, and multimedia content that establishes thought leadership and drives engagement."
+    description: "You've got plenty to say about your business. But is anyone choosing to read it?",
+    details: "We create articles, opinion pieces and blogs that answer what your customers are really wondering about. Useful content earns trust slowly, and people who trust you tend to stay."
   },
   {
     icon: Lightbulb,
     title: "Creative Campaigns & Copywriting",
-    description: "Powerful storytelling that converts browsers into customers.",
-    details: "Compelling campaign concepts and conversion-focused copywriting that captures attention and drives action across all channels."
+    description: "People see hundreds of ads in a day.But which one would they repeat to a friend?",
+    details: "A good campaign starts with one honest idea about your brand and the people it's for. We turn that into words that sound like a person talking, not a brand announcing."
   },
   {
     icon: Palette,
     title: "Graphic Design & Motion Graphics",
-    description: "Eye-catching visuals that bring your brand story to life.",
-    details: "Professional design services including logos, marketing materials, infographics, animations, and video content."
+    description: "People decide how much to trust you before they read a single word.But what are your visuals telling them?",
+    details: "We design the posts, videos and visuals that carry your story, and we make sure they all look like they belong to the same brand. Good design is felt more than it's noticed."
   },
   {
     icon: LineChart,
     title: "Digital Strategy Consulting",
-    description: "Strategic guidance to achieve your business goals.",
-    details: "Comprehensive digital transformation strategies, market analysis, and actionable roadmaps to drive sustainable growth."
+    description: "You're active on a dozen platforms. But is any of it adding up to a plan?",
+    details: "We look at where you are, what your market is doing and where you want to be, then hand you a clear roadmap in plain language. Use it with us, or take it to anyone you like."
   },
   {
     icon: Users,
     title: "Influencer & Creator Marketing",
-    description: "Leveraging partnerships to amplify your brand reach.",
-    details: "End-to-end influencer campaign management including discovery, outreach, content collaboration, and performance tracking."
+    description: "People trust people far more than they trust brands. But are the right people talking about you?",
+    details: "We look for creators whose audience genuinely matches yours, not just the ones with the biggest numbers. Then we work with them so the recommendation sounds like theirs, because that's what makes it believable."
   },
   {
     icon: ShoppingCart,
     title: "E-commerce Marketing",
-    description: "Optimizing online stores for maximum conversions.",
-    details: "Complete e-commerce solutions including store optimization, product marketing, cart abandonment strategies, and conversion rate optimization."
+    description: "Plenty of people visit your store.But how many leave without buying, and do you know why?",
+    details: "We look at the whole journey, from the first click to the abandoned cart, and fix what's getting in the way. That means clearer product pages, a simpler checkout and a gentle reminder for the ones who almost bought."
+  },
+  {
+    icon: Monitor,
+    title: "Website Design & Development",
+    description: "Everything you do online leads people to your website.But does it make them want to stay?",
+    details: "We design and build websites that are easy to use, quick to load and clear about what you do. It should feel like walking into a well-kept shop, where you find what you need without having to ask."
+  },
+  {
+    icon: Video,
+    title: "Video & Photo Production",
+    description: "People remember what they see far longer than what they read. But what are your photos and videos saying about you?",
+    details: "We plan, shoot and edit the videos and photographs that show your business as it really is, from a quick reel to a full brand film. The story comes first and the camera second."
+  },
+  {
+    icon: Newspaper,
+    title: "PR & Media Relations",
+    description: "Anyone can say good things about their own brand. But who is saying them for you?",
+    details: "We help you tell your story to journalists, publications and the people who write about your industry. Coverage has to be earned, so we start by finding what's genuinely worth telling and then tell it well."
+  },
+  {
+    icon: Mail,
+    title: "Email & WhatsApp Marketing",
+    description: "Winning a new customer usually costs more than keeping one. But when did you last speak to the ones you already have?",
+    details: "We set up emails and WhatsApp messages that feel like a note from someone who knows them, not a broadcast. Welcomes, reminders, offers and thank-yous, sent at the right time and never too often."
+  },
+  {
+    icon: CalendarDays,
+    title: "Brand Activations & Events",
+    description: "People scroll past ads all day. But how many have actually experienced your brand?",
+    details: "We plan the events, launches and on-ground moments that let people meet your brand in person, from a mall activation to a product launch. We take care of the idea, the planning and the day itself."
+  },
+  {
+    icon: BarChart3,
+    title: "Analytics & Reporting",
+    description: "You get a report every month. But does it tell you what to do next?",
+    details: "We track what matters to your business, not just what's easy to count, and explain it in plain language. Every report ends with what's working, what isn't and what we'd do next."
   }
 ];
 

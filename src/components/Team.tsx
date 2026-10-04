@@ -4,10 +4,10 @@ import { Linkedin, Twitter, Globe } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
-    role: "Creative Director",
-    initials: "SJ",
-    bio: "15+ years crafting award-winning campaigns for global brands.",
+    name: "Amal Prabha",
+    role: "Founder & Creative Director",
+    initials: "AP",
+    bio: "Turning brands into names people cherish. 8+ years of internationally acclaimed work.",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
@@ -15,10 +15,10 @@ const teamMembers = [
     }
   },
   {
-    name: "Michael Chen",
-    role: "Strategy Lead",
-    initials: "MC",
-    bio: "Data wizard with a proven track record of 10x growth strategies.",
+    name: "Vishnu Manoj",
+    role: "Co-founder / Finance",
+    initials: "VM",
+    bio: "CMA co-founder who does the sums, so the ideas can be brave. ",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
@@ -26,10 +26,10 @@ const teamMembers = [
     }
   },
   {
-    name: "Emily Rodriguez",
-    role: "Content Strategist",
-    initials: "ER",
-    bio: "Storyteller driving engagement through compelling narratives.",
+    name: "Sachin Kartik",
+    role: "Cinematographer / Videographer ",
+    initials: "SK",
+    bio: "Film-trained cinematographer with 7+ years behind the camera.",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
@@ -37,10 +37,21 @@ const teamMembers = [
     }
   },
   {
-    name: "David Kim",
-    role: "Performance Marketing",
-    initials: "DK",
-    bio: "ROI-focused marketer who turns clicks into loyal customers.",
+    name: "Midhun MT",
+    role: "Designer Lead",
+    initials: "MM",
+    bio: "Designer with 7+ years of making ideas hard to scroll past. ",
+    social: {
+      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com",
+      website: "https://example.com"
+    }
+  },
+  {
+    name: "Amal Paul",
+    role: "Production Team Lead",
+    initials: "AP",
+    bio: "Detail-minded producer who keeps big ideas on schedule and on screen. ",
     social: {
       linkedin: "https://linkedin.com",
       twitter: "https://twitter.com",
