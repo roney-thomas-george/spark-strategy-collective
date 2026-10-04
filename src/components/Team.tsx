@@ -14,17 +14,17 @@ const teamMembers = [
       website: "https://example.com"
     }
   },
-  {
-    name: "Vishnu Manoj",
-    role: "Co-founder / Finance",
-    initials: "VM",
-    bio: "CMA co-founder who does the sums, so the ideas can be brave. ",
-    social: {
-      linkedin: "https://linkedin.com",
-      twitter: "https://twitter.com",
-      website: "https://example.com"
-    }
-  },
+  // {
+  //   name: "Vishnu Manoj",
+  //   role: "Co-founder / Finance",
+  //   initials: "VM",
+  //   bio: "CMA co-founder who does the sums, so the ideas can be brave. ",
+  //   social: {
+  //     linkedin: "https://linkedin.com",
+  //     twitter: "https://twitter.com",
+  //     website: "https://example.com"
+  //   }
+  // },
   {
     name: "Sachin Kartik",
     role: "Cinematographer / Videographer ",
