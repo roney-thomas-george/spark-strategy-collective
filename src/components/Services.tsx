@@ -8,7 +8,13 @@ import {
   Palette, 
   LineChart, 
   Users, 
-  ShoppingCart 
+  ShoppingCart,
+  Monitor,
+  Video,
+  Newspaper,
+  Mail,
+  CalendarDays,
+  BarChart3
 } from "lucide-react";
 
 const services = [
@@ -73,37 +79,37 @@ const services = [
     details: "We look at the whole journey, from the first click to the abandoned cart, and fix what's getting in the way. That means clearer product pages, a simpler checkout and a gentle reminder for the ones who almost bought."
   },
   {
-    icon: ShoppingCart,
+    icon: Monitor,
     title: "Website Design & Development",
     description: "Everything you do online leads people to your website.But does it make them want to stay?",
     details: "We design and build websites that are easy to use, quick to load and clear about what you do. It should feel like walking into a well-kept shop, where you find what you need without having to ask."
   },
   {
-    icon: ShoppingCart,
+    icon: Video,
     title: "Video & Photo Production",
     description: "People remember what they see far longer than what they read. But what are your photos and videos saying about you?",
     details: "We plan, shoot and edit the videos and photographs that show your business as it really is, from a quick reel to a full brand film. The story comes first and the camera second."
   },
   {
-    icon: ShoppingCart,
+    icon: Newspaper,
     title: "PR & Media Relations",
     description: "Anyone can say good things about their own brand. But who is saying them for you?",
     details: "We help you tell your story to journalists, publications and the people who write about your industry. Coverage has to be earned, so we start by finding what's genuinely worth telling and then tell it well."
   },
   {
-    icon: ShoppingCart,
+    icon: Mail,
     title: "Email & WhatsApp Marketing",
     description: "Winning a new customer usually costs more than keeping one. But when did you last speak to the ones you already have?",
     details: "We set up emails and WhatsApp messages that feel like a note from someone who knows them, not a broadcast. Welcomes, reminders, offers and thank-yous, sent at the right time and never too often."
   },
   {
-    icon: ShoppingCart,
+    icon: CalendarDays,
     title: "Brand Activations & Events",
     description: "People scroll past ads all day. But how many have actually experienced your brand?",
     details: "We plan the events, launches and on-ground moments that let people meet your brand in person, from a mall activation to a product launch. We take care of the idea, the planning and the day itself."
   },
   {
-    icon: ShoppingCart,
+    icon: BarChart3,
     title: "Analytics & Reporting",
     description: "You get a report every month. But does it tell you what to do next?",
     details: "We track what matters to your business, not just what's easy to count, and explain it in plain language. Every report ends with what's working, what isn't and what we'd do next."
